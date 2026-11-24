@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主题页「刷新」图标：自绘的双向循环箭头（2026-11-17）。
+     不用 Material 的 Refresh——那一版是满圆+单个三角，和本项目发丝线风格不搭。 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M19.4,9.3 A8,8 0 0 0 5.1,7.1"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M5.1,7.1 L4.4,2.9 M5.1,7.1 L9.3,6.3"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M4.6,14.7 A8,8 0 0 0 18.9,16.9"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M18.9,16.9 L19.6,21.1 M18.9,16.9 L14.7,17.7"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

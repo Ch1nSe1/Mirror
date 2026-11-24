@@ -1,0 +1,59 @@
+# build / gradle / local
+build/
+.gradle/
+.idea/
+local.properties
+*.apk
+*.aab
+*.log
+*.hprof
+
+# keystore 敏感，绝不入库
+.signing/
+*.jks
+*.keystore
+
+# 本机数据库与运行数据
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# 音频不进库（作者自用素材，不随仓库分发）
+app/src/main/assets/sounds/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.aac
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.kotlin/
+.externalNativeBuild/
+.cxx/
+
+# 本地缓存与旧仓库备份
+__pycache__/
+*.pyc
+.git-old*/
+
+# 内部研究底稿 / 发布清单：不随公开仓库分发
+docs/agent-connection-gaps.md
+docs/align-*
+docs/eval-*
+docs/exp-*
+docs/push-checklist.md
+
+# 编辑器备份/临时文件，绝不入库（含真实 IP、旧代码）
+*.bak
+*.orig
+*.rej
+*.swp
+*.tmp
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#FF1A1628</color>
+    <color name="background_surface">#FF231F35</color>
+    <color name="accent_purple">#FF8B7FAD</color>
+    <color name="accent_low_sat">#FF6B5E8F</color>
+    <color name="text_primary">#FFE8E4F0</color>
+    <color name="text_secondary">#FF9A94B0</color>
+    <color name="danger">#FFD45E5E</color>
+</resources>

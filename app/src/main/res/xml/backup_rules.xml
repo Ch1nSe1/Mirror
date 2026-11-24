@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="memore_auth.xml"/>
+    <exclude domain="sharedpref" path="mirror_prefs.xml"/>
+</full-backup-content>
